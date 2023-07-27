@@ -286,7 +286,7 @@ class AddCategoryView(APIView):
             return Response({
                 'error' : False,
                 'data' : serializer.data,
-                'name' : 'Hurairah',
+                'name' : 'HurairahIT is',
                 'msg' : 'Category Added'
             })
         return Response({
